@@ -20,8 +20,8 @@ if __name__ == "__main__":
     temperature_val = 0
     rate_type = ""
     while rate_type != "q":
-        temperature_val = int(input("Enter the temperature : "))
         rate_type = input("Enter the Rate type F or f or k or K : ")
+        temperature_val = int(input("Enter the temperature : "))
         if rate_type == "F" or rate_type == "f":
         #if rate_type in ["F", "f"]:
             result_temp = default_param(temperature_val)

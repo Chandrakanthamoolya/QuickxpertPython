@@ -4,7 +4,7 @@ def even_odd_count(*args):
     even and odd count.
 
     :param *args: contains variable argument
-    :type *args: list
+    :type *args: tuple
     :returns: even and odd cout
     :rtype: tuple
     :author: XYZ
